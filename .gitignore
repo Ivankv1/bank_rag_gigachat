@@ -4,14 +4,13 @@ venv/
 env/
 ENV/
 
-# Секреты (самый важный пункт!)
 .env
 .env.local
 .env.*.local
 *.key
 credentials.json
 
-# Векторная база (её можно пересоздать)
+)
 chroma_db/
 chroma_db/**
 
