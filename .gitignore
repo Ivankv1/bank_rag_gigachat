@@ -1,0 +1,55 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+
+# Секреты (самый важный пункт!)
+.env
+.env.local
+.env.*.local
+*.key
+credentials.json
+
+# Векторная база (её можно пересоздать)
+chroma_db/
+chroma_db/**
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# PyCharm / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
+
+# HuggingFace / модели (если скачивались локально)
+.cache/
+huggingface/
+*.bin
+*.safetensors
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
