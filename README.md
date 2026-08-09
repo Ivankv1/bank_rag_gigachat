@@ -1,4 +1,4 @@
-*Умный помощник по внутренним регламентам банка** на базе GigaChat и технологии RAG.
+**Умный помощник по внутренним регламентам банка** на базе GigaChat и технологии RAG.
 
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
