@@ -53,11 +53,19 @@ GigaChat-2
 
 Структура проекта:
 bank_rag_gigachat/
+
 ├── data/                  
+
 ├── src/
+
 │   ├── ingest.py          
+
 │   ├── rag_pipeline.py    
+
 │   └── evaluate.py        
+
 ├── app.py                 
+
 ├── requirements.txt
+
 └── README.md
